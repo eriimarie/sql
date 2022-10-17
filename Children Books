@@ -1,0 +1,13 @@
+/**Children Books: 
+Harry Potter The sorcerer Stone (1)
+Madeline (2)
+Twinkle (4)
+**/
+CREATE TABLE children_book (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO children_book VALUES (1, "Harry Potter the sorcerer stone" , 4);
+INSERT INTO children_book VALUES (2, "Madeline" , 7);
+INSERT INTO children_book VALUES (3, "Twinkle" , 39);
+
+SELECT * FROM children_book;
+SELECT * FROM children_book;
